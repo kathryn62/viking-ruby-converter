@@ -4,7 +4,7 @@ module Viking
   # This class handle the html2md part
   
     class HtmlToMd
-      attr_accessor :html
+      attr_reader :html
       
       def initialize(html)
         @html           = html
